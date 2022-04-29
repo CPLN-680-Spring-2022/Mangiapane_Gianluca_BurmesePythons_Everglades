@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <descript>
+            <abstract>The urban feature class covers the state of Florida at a scale of 1:24,000 with a projection system of Universal Transverse Mercator (UTM) 17 North zone and a horizontal datum of North American 1983 (NAD 1983). Every 10 years, the United States Census conducts a count of population. Along with this count, a set of geographies (TIGER line files) are assembled to help the Census. One of the products delineates urban areas and assigns population to these areas based on the Census counts. This dataset uses this TIGER data as a starting point. Areas with population of 5,000 or greater are extracted. This data is then sent to FDOT Districts to coordinate smoothing. The original urban polygons are smoothed and modified to accommodate transportation assets of interest to the Department and its partners. Once the urban polygons have been adjusted, the FHWA reviews and then ultimately approves them. Thus, this dataset represents a subset of TIGER urban polygons that have been reshaped to take into account FDOT roadway configurations and alignments. The 2012 TIGER urban shape file is the source for the smoothed polygons. This dataset is maintained by the Transportation Data &amp;amp; Analytics office (TDA). The source spatial data for this hosted feature layer was created on: 10/31/2014.For more details please review the FDOT RCI HandbookDownload Data:Enter Guest as Username to download the source shapefile from here: https://ftp.fdot.gov/file/d/FTP/FDOT/co/planning/transtat/gis/shapefiles/urban.zip</abstract>
+            <purpose>This dataset shows the smoothed urban boundaries established by the Florida Department of Transportation (FDOT) in partnership with the Federal Highway Administration (FHWA). This dataset is comprised of Census TIGER data urban areas filtered by population and then smoothed by the Florida Department of Transportation District offices. The dataset is updated every 10 years after FHWA approval.</purpose>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Florida</themekey>
+                <themekey>FL</themekey>
+                <themekey>FDOT</themekey>
+                <themekey>Surveying and Mapping</themekey>
+                <themekey>Trans Stats</themekey>
+                <themekey>GIS@FDOT</themekey>
+                <themekey>urban</themekey>
+                <themekey>Urban</themekey>
+                <themekey>Boundaries</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>NO WARRANTIES: This site and its content is made available by the Florida Department of Transportation on an &amp;quot;as is&amp;quot;, &amp;quot;as available&amp;quot; basis without warranties of any kind, express or implied. DISCLAIMER OF LIABILITY: The user of this application and data assumes all responsibility and risk for the use of both. Under no circumstances, including negligence, shall the Florida Department of Transportation, or its employees be liable for any DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY or CONSEQUENTIAL DAMAGES, or LOST PROFITS that result from the use, misuse or inability to use the application and data. Nor shall the Florida Department of Transportation, or its employees be liable for any damages resulting from or related to reliance; mistakes, omissions, interruptions, deletion of files, computer viruses, errors, defects, or any failure of performance, communications failure, theft, destruction or unauthorized access to the application and data.</useconst>
+        <datacred>Florida Department of Transportation Office of Transportation Technology Civil Integrated Management 605 Suwannee Street Tallahassee FL 32399 850-414-4111</datacred>
+    </idinfo>
+    <metainfo>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

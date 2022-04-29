@@ -1,0 +1,3148 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20220402</pubdate>
+                <title>Historical Annual Average Daily Traffic</title>
+                <geoform>vector digital data</geoform>
+                <serinfo>
+                    <sername>Traffic Data Layers</sername>
+                    <issue>TDL</issue>
+                </serinfo>
+                <onlink>https://ftp.fdot.gov/file/d/FTP/FDOT/co/planning/transtat/gis/shapefiles/aadt_historical.zip</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>The FDOT Historical Annual Average Daily Traffic feature class provides spatial information on Annual Average Daily Traffic section breaks for the state of Florida.  In addition, it provides affiliated traffic information like KFCTR, DFCTR and TFCTR among others. It contains five years of AADT data including the most currently available year. This dataset is maintained by the Transportation Data &amp; Analytics office (TDA). The source spatial data for this hosted feature layer was created on: 04/02/2022.Download Data:  Enter Guest as Username to download the source shapefile from here: https://ftp.fdot.gov/file/d/FTP/FDOT/co/planning/transtat/gis/shapefiles/aadt_historical.zip</abstract>
+            <purpose>The Historical Annual Average Daily Traffic feature class feature class shows the location of traffic breaks and affiliated annual average daily traffic volumes in the state of Florida as derived from event mapping selected traffic characteristics from the FDOT Traffic Characteristics Inventory (TCI). It contains five years of data, including the most currently available year.</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20220402</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>Data are valid from the publication date until a new feature class is published. This dataset is updated every Saturday.</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>Weekly</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-87.589039</westbc>
+                <eastbc>-79.990970</eastbc>
+                <northbc>31.160317</northbc>
+                <southbc>24.421049</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Transportation</themekey>
+                <themekey>K-Factor</themekey>
+                <themekey>D-Factor</themekey>
+                <themekey>K-100 Factor</themekey>
+                <themekey>AADT</themekey>
+                <themekey>T-Factor</themekey>
+                <themekey>Historical AADT</themekey>
+                <themekey>Traffic Volume</themekey>
+                <themekey>TCI</themekey>
+                <themekey>Traffic Characteristics Inventory</themekey>
+                <themekey>Annual Average Daily Traffic</themekey>
+                <themekey>Florida Department of Transportation</themekey>
+                <themekey>FDOT</themekey>
+                <themekey>Transportation Data and Analytics</themekey>
+                <themekey>TDA</themekey>
+                <themekey>Florida</themekey>
+                <themekey>FL</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>transportation</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>Florida</placekey>
+            </place>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>NO WARRANTIES: This site and its content is made available by the Florida Department of Transportation on an "as is", "as available" basis without warranties of any kind, express or implied. DISCLAIMER OF LIABILITY: The user of this application and data assumes all responsibility and risk for the use of both. Under no circumstances, including negligence, shall the Florida Department of Transportation, or its employees be liable for any DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY or CONSEQUENTIAL DAMAGES, or LOST PROFITS that result from the use, misuse or inability to use the application and data. Nor shall the Florida Department of Transportation, or its employees be liable for any damages resulting from or related to reliance; mistakes, omissions, interruptions, deletion of files, computer viruses, errors, defects, or any failure of performance, communications failure, theft, destruction or unauthorized access to the application and data.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>FDOT Transportation Data &amp; Analytics Office</cntorg>
+                    <cntper>GIS Section Manager</cntper>
+                </cntorgp>
+                <cntpos>Manager</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>Transportation Data &amp; Analytics Office, 605 Suwannee Street, MS-27</address>
+                    <city>Tallahassee</city>
+                    <state>Florida</state>
+                    <postal>32399-0450</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>Toll Free: (800) 399-5503</cntvoice>
+                <cntvoice>(850) 414-4848</cntvoice>
+                <cnttdd>Florida Department of Transportation: TDD/TTY: 850-410-5708</cnttdd>
+                <cnttdd>Florida Relay: 1-800-955-1339 (ASCII)</cnttdd>
+                <cnttdd>Florida Relay: 711</cnttdd>
+                <cnttdd>Florida Relay: 1-877-955-8773 (Spanish)</cnttdd>
+                <cnttdd>Florida Relay: 1-800-955-8771 (TTY)</cnttdd>
+                <cnttdd>Florida Relay: 1-800-955-8770 (Voice)</cnttdd>
+                <cntemail>CO-TDAGIS@dot.state.fl.us</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.7.1.11595</native>
+    </idinfo>
+    <dataqual>
+        <logic>All data for this dataset are logically consistent.</logic>
+        <complete>This dataset is complete as of date of production.</complete>
+        <lineage>
+            <procstep>
+                <procdesc>This dataset was created using ESRI event mapping. The route system is the Transportation Data and Analytics' linear referencing system (LRS). The event source data are from an Oracle view of the secbrks table. The query used to generate the source table is: select "YEAR","DISTRICT","COSITE","ROADWAY","BEGIN_POST","END_POST","AADT","AADTFLG","KFCTR","KFLG","K100FCTR","K100FLG","DFCTR","DFLG","TFCTR","TFLG" from secbrks where year = 2006;</procdesc>
+                <procdate>20220402</procdate>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>String</sdtstype>
+                <ptvctcnt>98897</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>aadt_historical</enttypl>
+                <enttypd>Annual average daily traffic volume.  RCI designation - SECTADT.</enttypd>
+                <enttypds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>FID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>YEAR_</attrlabl>
+                <attrdef>Calendar year for which record applies.</attrdef>
+                <attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Year the data were collected</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DISTRICT</attrlabl>
+                <attrdef>FDOT District Number</attrdef>
+                <attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>1</edomv>
+                                                						
+                        
+                        <edomvd>District 1</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>2</edomv>
+                                                						
+                        
+                        <edomvd>District 2</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>3</edomv>
+                                                						
+                        
+                        <edomvd>District 3</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>4</edomv>
+                                                						
+                        
+                        <edomvd>District 4</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>5</edomv>
+                                                						
+                        
+                        <edomvd>District 5</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>6</edomv>
+                                                						
+                        
+                        <edomvd>District 6</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>7</edomv>
+                                                						
+                        
+                        <edomvd>District 7</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>8</edomv>
+                                                						
+                        
+                        <edomvd>Florida's Turnpike Enterprise</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>COSITE</attrlabl>
+                <attrdef>Combination of county and site values as a six-digit item.</attrdef>
+                <attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>County and station site identification number</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ROADWAY</attrlabl>
+                <attrdef>A unique 8-character identification number assigned to a roadway or section of a roadway either On or Off the State Highway System for which information is maintained in the Department's Roadway Characteristics Inventory (RCI).</attrdef>
+                <attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>8-character roadway identifier.  The first two characters are the county code, the next three characters indicate section number and the last three characters indicate the sub-section.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DESC_FRM</attrlabl>
+                <attrdef>The name of the intersecting road at the beginning of the roadway segment.  (There are instances that the intersection is at a county boundary, a facility crossing, a bridge, etc.)</attrdef>
+                <attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>The name of the intersecting road at the beginning of the roadway segment.  (There are instances that the intersection is at a county boundary, a facility crossing, a bridge, etc.)</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DESC_TO</attrlabl>
+                <attrdef>The name of the intersecting road at the end of the roadway segment.  (There are instances that the intersection is at a county boundary, a facility crossing, a bridge, etc.)</attrdef>
+                <attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>The name of the intersecting road at the end of the roadway segment.  (There are instances that the intersection is at a county boundary, a facility crossing, a bridge, etc.)</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>AADT</attrlabl>
+                <attrdef>The total volume of traffic on a highway segment for one year, divided by the number of days in the year.</attrdef>
+                <attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>The total volume of traffic on a highway segment for one year</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>AADTFLG</attrlabl>
+                <attrdef>Source of AADT estimate-
+S=Last survey and prior year factor(s) (interim),
+F=Last Survey and same year factor(s) (final),
+C=TTMS (final)</attrdef>
+                <attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>C</edomv>
+                                                						
+                        
+                        <edomvd>Computed</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office </edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>E</edomv>
+                                                						
+                        
+                        <edomvd>Manual estimate</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>F</edomv>
+                                                						
+                        
+                        <edomvd>First year estimate</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>S</edomv>
+                                                						
+                        
+                        <edomvd>Second year estimate</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>T</edomv>
+                                                						
+                        
+                        <edomvd>Third year estimate</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office </edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>R</edomv>
+                                                						
+                        
+                        <edomvd>Fourth year estimate</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office </edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>V</edomv>
+                                                						
+                        
+                        <edomvd>Fifth year estimate</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office </edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>6</edomv>
+                                                						
+                        
+                        <edomvd>Sixth year estimate</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office </edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>X</edomv>
+                                                						
+                        
+                        <edomvd>Unknown</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office </edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>KFLG</attrlabl>
+                <attrdef>Computation method-A=Actual Data, F=Computed from Factor Category, S=Statewide Default X=Cross Reference</attrdef>
+                <attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>A</edomv>
+                                                						
+                        
+                        <edomvd>Actual Data</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>F</edomv>
+                                                						
+                        
+                        <edomvd>Computed from Factor Category</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>S</edomv>
+                                                						
+                        
+                        <edomvd>Statewide Default </edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>X</edomv>
+                                                						
+                        
+                        <edomvd>Cross Reference </edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>K100FLG</attrlabl>
+                <attrdef>Computation method-A=Actual Data, F=Computed from Factor Category, S=Statewide Default X=Cross Reference for the highest 100 Hour</attrdef>
+                <attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>A</edomv>
+                                                						
+                        
+                        <edomvd>Actual Data</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>F</edomv>
+                                                						
+                        
+                        <edomvd>Computed from Factor Category</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>S</edomv>
+                                                						
+                        
+                        <edomvd>Statewide Default</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>X</edomv>
+                                                						
+                        
+                        <edomvd>Cross Reference </edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DFLG</attrlabl>
+                <attrdef>Computation method (Same as KFLG)</attrdef>
+                <attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>A</edomv>
+                                                						
+                        
+                        <edomvd>Actual Data</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>F</edomv>
+                                                						
+                        
+                        <edomvd>Computed from Factor Category</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>S</edomv>
+                                                						
+                        
+                        <edomvd>Statewide Default </edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>X</edomv>
+                                                						
+                        
+                        <edomvd>Cross Reference</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>TFLG</attrlabl>
+                <attrdef>Computation method.</attrdef>
+                <attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>A</edomv>
+                                                						
+                        
+                        <edomvd>Actual Data</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>F</edomv>
+                                                						
+                        
+                        <edomvd>Computed from Factor Category</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>S</edomv>
+                                                						
+                        
+                        <edomvd>Statewide Default </edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>X</edomv>
+                                                						
+                        
+                        <edomvd>Cross Reference</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>COUNTYDOT</attrlabl>
+                <attrdef>Two-character Florida Department of Transportation county identifier.  The ROADWAY identifier's first 2 characters are the county identifier.</attrdef>
+                <attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>01</edomv>
+                                                						
+                        
+                        <edomvd>Charlotte</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>03</edomv>
+                                                						
+                        
+                        <edomvd>Collier</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>04</edomv>
+                                                						
+                        
+                        <edomvd>Desoto</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>05</edomv>
+                                                						
+                        
+                        <edomvd>Glades</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>06</edomv>
+                                                						
+                        
+                        <edomvd>Hardee</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>07</edomv>
+                                                						
+                        
+                        <edomvd>Hendry</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>09</edomv>
+                                                						
+                        
+                        <edomvd>Highlands</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>12</edomv>
+                                                						
+                        
+                        <edomvd>Lee</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>08</edomv>
+                                                						
+                        
+                        <edomvd>Hernando</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>09</edomv>
+                                                						
+                        
+                        <edomvd>Highlands</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>10</edomv>
+                                                						
+                        
+                        <edomvd>Hillsborough</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>11</edomv>
+                                                						
+                        
+                        <edomvd>Lake</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>13</edomv>
+                                                						
+                        
+                        <edomvd>Manatee</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>14</edomv>
+                                                						
+                        
+                        <edomvd>Pasco</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>15</edomv>
+                                                						
+                        
+                        <edomvd>Pinellas</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>16</edomv>
+                                                						
+                        
+                        <edomvd>Polk</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>17</edomv>
+                                                						
+                        
+                        <edomvd>Sarasota</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>18</edomv>
+                                                						
+                        
+                        <edomvd>Sumter</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>26</edomv>
+                                                						
+                        
+                        <edomvd>Alachua</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>27</edomv>
+                                                						
+                        
+                        <edomvd>Baker</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>28</edomv>
+                                                						
+                        
+                        <edomvd>Bradford</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>29</edomv>
+                                                						
+                        
+                        <edomvd>Columbia</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>30</edomv>
+                                                						
+                        
+                        <edomvd>Dixie</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>31</edomv>
+                                                						
+                        
+                        <edomvd>Gilchrist</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>32</edomv>
+                                                						
+                        
+                        <edomvd>Hamilton</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>33</edomv>
+                                                						
+                        
+                        <edomvd>Lafayette</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>34</edomv>
+                                                						
+                        
+                        <edomvd>Levy</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>35</edomv>
+                                                						
+                        
+                        <edomvd>Madison</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>36</edomv>
+                                                						
+                        
+                        <edomvd>Marion</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>37</edomv>
+                                                						
+                        
+                        <edomvd>Suwannee</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>38</edomv>
+                                                						
+                        
+                        <edomvd>Taylor</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>39</edomv>
+                                                						
+                        
+                        <edomvd>Union</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>46</edomv>
+                                                						
+                        
+                        <edomvd>Bay</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>47</edomv>
+                                                						
+                        
+                        <edomvd>Calhoun</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>48</edomv>
+                                                						
+                        
+                        <edomvd>Escambia</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>49</edomv>
+                                                						
+                        
+                        <edomvd>Franklin</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>50</edomv>
+                                                						
+                        
+                        <edomvd>Gadsden</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>51</edomv>
+                                                						
+                        
+                        <edomvd>Gulf</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>52</edomv>
+                                                						
+                        
+                        <edomvd>Holmes</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>53</edomv>
+                                                						
+                        
+                        <edomvd>Jackson</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>54</edomv>
+                                                						
+                        
+                        <edomvd>Jefferson</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>55</edomv>
+                                                						
+                        
+                        <edomvd>Leon</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>56</edomv>
+                                                						
+                        
+                        <edomvd>Liberty</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>57</edomv>
+                                                						
+                        
+                        <edomvd>Okaloosa</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>58</edomv>
+                                                						
+                        
+                        <edomvd>Santa Rosa</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>59</edomv>
+                                                						
+                        
+                        <edomvd>Wakulla</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>60</edomv>
+                                                						
+                        
+                        <edomvd>Walton</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>61</edomv>
+                                                						
+                        
+                        <edomvd>Washington</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>70</edomv>
+                                                						
+                        
+                        <edomvd>Brevard</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>71</edomv>
+                                                						
+                        
+                        <edomvd>Clay</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>72</edomv>
+                                                						
+                        
+                        <edomvd>Duval</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>73</edomv>
+                                                						
+                        
+                        <edomvd>Flagler</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>74</edomv>
+                                                						
+                        
+                        <edomvd>Nassau</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>75</edomv>
+                                                						
+                        
+                        <edomvd>Orange</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>76</edomv>
+                                                						
+                        
+                        <edomvd>Putnam</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>77</edomv>
+                                                						
+                        
+                        <edomvd>Seminole</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>78</edomv>
+                                                						
+                        
+                        <edomvd>St. Johns</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>79</edomv>
+                                                						
+                        
+                        <edomvd>Volusia</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>86</edomv>
+                                                						
+                        
+                        <edomvd>Broward</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>87</edomv>
+                                                						
+                        
+                        <edomvd>Miami-Dade</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>88</edomv>
+                                                						
+                        
+                        <edomvd>Indian River</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>89</edomv>
+                                                						
+                        
+                        <edomvd>Martin</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>90</edomv>
+                                                						
+                        
+                        <edomvd>Monroe</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>91</edomv>
+                                                						
+                        
+                        <edomvd>Okeechobee</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>92</edomv>
+                                                						
+                        
+                        <edomvd>Osceola</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>93</edomv>
+                                                						
+                        
+                        <edomvd>Palm Beach</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>94</edomv>
+                                                						
+                        
+                        <edomvd>St. Lucie</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>COUNTY</attrlabl>
+                <attrdef>The county that contains the roadway.</attrdef>
+                <attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Alachua</edomv>
+                                                						
+                        
+                        <edomvd>Alachua County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Baker</edomv>
+                                                						
+                        
+                        <edomvd>Baker County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Bay</edomv>
+                                                						
+                        
+                        <edomvd>Bay County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Bradford</edomv>
+                                                						
+                        
+                        <edomvd>Bradford County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Brevard</edomv>
+                                                						
+                        
+                        <edomvd>Brevard County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Broward</edomv>
+                                                						
+                        
+                        <edomvd>Broward County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Calhoun</edomv>
+                                                						
+                        
+                        <edomvd>Calhoun County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Charlotte</edomv>
+                                                						
+                        
+                        <edomvd>Charlotte County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Citrus</edomv>
+                                                						
+                        
+                        <edomvd>Citrus County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Clay</edomv>
+                                                						
+                        
+                        <edomvd>Clay County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Collier</edomv>
+                                                						
+                        
+                        <edomvd>Collier County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Columbia</edomv>
+                                                						
+                        
+                        <edomvd>Columbia County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Desoto</edomv>
+                                                						
+                        
+                        <edomvd>Desoto County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Dixie</edomv>
+                                                						
+                        
+                        <edomvd>Dixie County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Duval</edomv>
+                                                						
+                        
+                        <edomvd>Duval County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Escambia</edomv>
+                                                						
+                        
+                        <edomvd>Escambia County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Flagler</edomv>
+                                                						
+                        
+                        <edomvd>Flagler County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Franklin</edomv>
+                                                						
+                        
+                        <edomvd>Franklin County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Gadsden</edomv>
+                                                						
+                        
+                        <edomvd>Gadsden County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Gilchrist</edomv>
+                                                						
+                        
+                        <edomvd>Gilchrist County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Glades</edomv>
+                                                						
+                        
+                        <edomvd>Glades County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Gulf</edomv>
+                                                						
+                        
+                        <edomvd>Gulf County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Hamilton</edomv>
+                                                						
+                        
+                        <edomvd>Hamilton County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Hardee</edomv>
+                                                						
+                        
+                        <edomvd>Hardee County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Hendry</edomv>
+                                                						
+                        
+                        <edomvd>Hendry County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Hernando</edomv>
+                                                						
+                        
+                        <edomvd>Hernando County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Highlands</edomv>
+                                                						
+                        
+                        <edomvd>Highlands County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Hillsborough</edomv>
+                                                						
+                        
+                        <edomvd>Hillsborough County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Holmes</edomv>
+                                                						
+                        
+                        <edomvd>Holmes County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Indian River</edomv>
+                                                						
+                        
+                        <edomvd>Indian River County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Jackson</edomv>
+                                                						
+                        
+                        <edomvd>Jackson County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Jefferson</edomv>
+                                                						
+                        
+                        <edomvd>Jefferson County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Lafayette</edomv>
+                                                						
+                        
+                        <edomvd>Lafayette County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Lake</edomv>
+                                                						
+                        
+                        <edomvd>Lake County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Lee</edomv>
+                                                						
+                        
+                        <edomvd>Lee County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Leon</edomv>
+                                                						
+                        
+                        <edomvd>Leon County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Levy</edomv>
+                                                						
+                        
+                        <edomvd>Levy County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Liberty</edomv>
+                                                						
+                        
+                        <edomvd>Liberty County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Madison</edomv>
+                                                						
+                        
+                        <edomvd>Madison County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Manatee</edomv>
+                                                						
+                        
+                        <edomvd>Manatee County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Marion</edomv>
+                                                						
+                        
+                        <edomvd>Marion County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Martin</edomv>
+                                                						
+                        
+                        <edomvd>Martin County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Miami-Dade</edomv>
+                                                						
+                        
+                        <edomvd>Miami-Dade County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Monroe County</edomv>
+                                                						
+                        
+                        <edomvd>Monroe County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Nassau</edomv>
+                                                						
+                        
+                        <edomvd>Nassau County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Okaloosa</edomv>
+                                                						
+                        
+                        <edomvd>Okaloosa County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Okeechobee</edomv>
+                                                						
+                        
+                        <edomvd>Okeechobee County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Orange</edomv>
+                                                						
+                        
+                        <edomvd>Orange County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Osceola</edomv>
+                                                						
+                        
+                        <edomvd>Osceola County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Palm Beach</edomv>
+                                                						
+                        
+                        <edomvd>Palm Beach County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Pasco</edomv>
+                                                						
+                        
+                        <edomvd>Pasco County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Pinellas</edomv>
+                                                						
+                        
+                        <edomvd>Pinellas County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Polk</edomv>
+                                                						
+                        
+                        <edomvd>Polk County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Putnam</edomv>
+                                                						
+                        
+                        <edomvd>Putnam County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Santa Rosa</edomv>
+                                                						
+                        
+                        <edomvd>Santa Rosa County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Sarasota</edomv>
+                                                						
+                        
+                        <edomvd>Sarasota County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Seminole</edomv>
+                                                						
+                        
+                        <edomvd>Seminole County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>St. Johns</edomv>
+                                                						
+                        
+                        <edomvd>St. Johns County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>St. Lucie</edomv>
+                                                						
+                        
+                        <edomvd>St. Lucie County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Sumter</edomv>
+                                                						
+                        
+                        <edomvd>Sumter County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Suwannee</edomv>
+                                                						
+                        
+                        <edomvd>Suwannee County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Taylor</edomv>
+                                                						
+                        
+                        <edomvd>Taylor County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Union</edomv>
+                                                						
+                        
+                        <edomvd>Union County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Volusia</edomv>
+                                                						
+                        
+                        <edomvd>Volusia County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Wakulla</edomv>
+                                                						
+                        
+                        <edomvd>Wakulla County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Walton</edomv>
+                                                						
+                        
+                        <edomvd>Walton County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Washington</edomv>
+                                                						
+                        
+                        <edomvd>Washington County</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MNG_DIST</attrlabl>
+                <attrdef>The District that manages the roadway (District 1, District 2, District 3, District 4, District 5, District 6, District 7, or Turnpike). Note that the Managing District may not be the same as the geographic district.  For example, roadway ID 08470001 is managed by Turnpike, but its geographic District is District 7. This is a 2-character representation of the Managing District.</attrdef>
+                <attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>1</edomv>
+                                                						
+                        
+                        <edomvd>District 1</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>2</edomv>
+                                                						
+                        
+                        <edomvd>District 2</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>3</edomv>
+                                                						
+                        
+                        <edomvd>District 3</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>4</edomv>
+                                                						
+                        
+                        <edomvd>District 4</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>5</edomv>
+                                                						
+                        
+                        <edomvd>District 5</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>6</edomv>
+                                                						
+                        
+                        <edomvd>District 6</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>7</edomv>
+                                                						
+                        
+                        <edomvd>District 7</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>8</edomv>
+                                                						
+                        
+                        <edomvd>Florida's Turnpike Enterprise</edomvd>
+                                                						
+                        
+                        <edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>BEGIN_POST</attrlabl>
+                <attrdef>Denotes the lowest milepoint for the record.</attrdef>
+                <attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Lowest milepoint for the record</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>END_POST</attrlabl>
+                <attrdef>Denotes the highest milepoint for the record.</attrdef>
+                <attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Highest milepoint for the record</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>KFCTR</attrlabl>
+                <attrdef>The proportion of AADT occuring in an hour.  In this case it is the proportion that occurs in the 30th highest hour.</attrdef>
+                <attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <rdom>
+                                                						
+                        
+                        <rdommin>0</rdommin>
+                                                						
+                        
+                        <rdommax>100</rdommax>
+                                                						
+                        
+                        <attrunit>proportion of traffic volume</attrunit>
+                                                					
+                    
+                    </rdom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>K100FCTR</attrlabl>
+                <attrdef> K factor for highest 100 Hour</attrdef>
+                <attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <rdom>
+                                                						
+                        
+                        <rdommin>0</rdommin>
+                                                						
+                        
+                        <rdommax>100</rdommax>
+                                                						
+                        
+                        <attrunit>proportion of annual average traffic volume for the 100th highest hour</attrunit>
+                                                					
+                    
+                    </rdom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DFCTR</attrlabl>
+                <attrdef>Total traffic in peak direction as % of two-way traffic.</attrdef>
+                <attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <rdom>
+                                                						
+                        
+                        <rdommin>0</rdommin>
+                                                						
+                        
+                        <rdommax>100</rdommax>
+                                                						
+                        
+                        <attrunit>traffic volume</attrunit>
+                                                					
+                    
+                    </rdom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>TFCTR</attrlabl>
+                <attrdef>Truck &amp; bus factor is the proportion of trucks for 24 hours</attrdef>
+                <attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <rdom>
+                                                						
+                        
+                        <rdommin>0</rdommin>
+                                                						
+                        
+                        <rdommax>100</rdommax>
+                                                						
+                        
+                        <attrunit>truck volume proportion</attrunit>
+                                                					
+                    
+                    </rdom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape_Leng</attrlabl>
+                <attrdef>Length in meters of the geometry for the record</attrdef>
+                <attrdefs>ESRI - Internally generated</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>The geometric shape length,  in meters</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>FDOT Transportation Data &amp; Analytics Office</cntorg>
+                    <cntper>GIS Section Manager</cntper>
+                </cntorgp>
+                <cntpos>Manager</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>Transportation Data &amp; Analytics Office, 605 Suwannee Street, MS 27</address>
+                    <city>Tallahassee</city>
+                    <state>Florida</state>
+                    <postal>32399-0450</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>Toll Free: (800) 399-5503</cntvoice>
+                <cntvoice>(850) 414-4848</cntvoice>
+                <cnttdd>Florida Relay: 1-877-955-8773 (Spanish)</cnttdd>
+                <cnttdd>Florida Relay: 1-800-955-1339 (ASCII)</cnttdd>
+                <cnttdd>Florida Department of Transportation: TDD/TTY: 850-410-5708</cnttdd>
+                <cnttdd>Florida Relay: 711</cnttdd>
+                <cnttdd>Florida Relay: 1-800-955-8770 (Voice)</cnttdd>
+                <cnttdd>Florida Relay: 1-800-955-8771 (TTY)</cnttdd>
+                <cntemail>CO-TDAGIS@dot.state.fl.us</cntemail>
+            </cntinfo>
+        </distrib>
+        <distliab>NO WARRANTIES: This site and its content is made available by the Florida Department of Transportation on an "as is", "as available" basis without warranties of any kind, express or implied. DISCLAIMER OF LIABILITY: The user of this application and data assumes all responsibility and risk for the use of both. Under no circumstances, including negligence, shall the Florida Department of Transportation, or its employees be liable for any DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY or CONSEQUENTIAL DAMAGES, or LOST PROFITS that result from the use, misuse or inability to use the application and data. Nor shall the Florida Department of Transportation, or its employees be liable for any damages resulting from or related to reliance; mistakes, omissions, interruptions, deletion of files, computer viruses, errors, defects, or any failure of performance, communications failure, theft, destruction or unauthorized access to the application and data.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>Shapefile</formname>
+                    <formvern>N/A</formvern>
+                    <formspec>shapefile</formspec>
+                    <filedec>zip compression</filedec>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>https://ftp.fdot.gov/file/d/FTP/FDOT/co/planning/transtat/gis/shapefiles/aadt_historical.zip</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                    <offoptn>
+                        <offmedia>CD-ROM</offmedia>
+                    </offoptn>
+                </digtopt>
+            </digform>
+            <fees>None</fees>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20220402</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>FDOT Transportation Data &amp; Analytics Office</cntorg>
+                    <cntper>GIS Section Manager</cntper>
+                </cntorgp>
+                <cntpos>GIS Section Manager</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>Transportation Data &amp; Analytics Office, 605 Suwannee Street, MS 27</address>
+                    <city>Tallahassee</city>
+                    <state>Florida</state>
+                    <postal>32399-0450</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>(850) 414-4848/Toll Free: (800) 399-5503</cntvoice>
+                <cnttdd>Florida Relay: 1-800-955-8771 (TTY)</cnttdd>
+                <cnttdd>Florida Relay: 1-877-955-8773 (Spanish)</cnttdd>
+                <cnttdd>Florida Relay: 1-800-955-8770 (Voice)</cnttdd>
+                <cnttdd>Florida Department of Transportation: TDD/TTY: 850-410-5708</cnttdd>
+                <cnttdd>Florida Relay: 1-800-955-1339 (ASCII)</cnttdd>
+                <cnttdd>Florida Relay: 711</cnttdd>
+                <cntemail>CO-TDAGIS@dot.state.fl.us</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

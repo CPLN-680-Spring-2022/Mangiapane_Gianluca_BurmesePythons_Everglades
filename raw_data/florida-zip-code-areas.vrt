@@ -1,0 +1,17 @@
+<OGRVRTDataSource>
+  <OGRVRTLayer name="florida-zip-code-areas">
+    <SrcDataSource relativeToVRT="1">florida-zip-code-areas.csv</SrcDataSource>
+    <FeatureCount>950</FeatureCount>
+    <GeometryField field="WKT" reportSrcColumn="FALSE">
+      <GeometryType>wkbPolygon</GeometryType>
+      <SRS>EPSG:4326</SRS>
+      <ExtentXMin>-87.6346431661673</ExtentXMin>
+      <ExtentYMin>24.5210510767359</ExtentYMin>
+      <ExtentXMax>-80.0311011651868</ExtentXMax>
+      <ExtentYMax>31.0010560527055</ExtentYMax>
+    </GeometryField>
+    <Field name="POST_OFFICE_NAME" src="POST_OFFICE_NAME" type="String" width="100" />
+    <Field name="AREA_SQ_MILES" src="AREA_SQ_MILES" type="Real" />
+    <Field name="ZIPCODE" src="ZIPCODE" type="String" width="40" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

@@ -1,0 +1,3324 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20190101</pubdate>
+                <title>FWC Bird Sanctuaries in Florida</title>
+                <pubinfo>
+                    <publish>Unpublished Material</publish>
+                </pubinfo>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>This dataset shows FWC-designated bird sanctuaries occurring throughout Florida. The boundaries of each sanctuary were digitized from a variety of sources including historical documents such as FWC establishment orders and parcel plat maps. To ensure accuracy of the digitization process for each bird sanctuary, reference datasets and documents were compiled and divided into three regions: North, East, and West. All reference data was then re-projected to NAD_1983_2011_StatePlane_Florida_East_FIPS_0901_Ft_US, NAD_1983_2011_StatePlane_Florida_West_FIPS_0902_Ft_US, or NAD_1983_2011_StatePlane_Florida_North_FIPS_0903_Ft_US, respectively. These regions and projections were chosen to match the use of US feet in the legal descriptions of each bird sanctuary and any accompanying plat/parcel surveys. After all reference data was prepared, an individual bird sanctuary dataset for each region was created in the appropriate projection. The legal descriptions establishing the bird sanctuaries varied widely in terms of detail. If specific plat books or plat maps were referenced in the legal description, staff used these documents in combination with the available countywide parcels dataset and World Street Map to digitize the sanctuaries. All three bird sanctuary datasets were then merged into one dataset, and this final statewide dataset was reprojected to NAD_1983_2011_Florida_FGDL_Albers. Please see the sources section for more information regarding the reference datasets and legal descriptions.</abstract>
+            <purpose>This dataset was developed to map the areas designated as bird sanctuaries by FWC throughout Florida.</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <rngdates>
+                    <begdate>19620101</begdate>
+                    <enddate>20190101</enddate>
+                </rngdates>
+            </timeinfo>
+            <current>Publication date</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>As needed</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-87.467341</westbc>
+                <eastbc>-79.968419</eastbc>
+                <northbc>30.638063</northbc>
+                <southbc>25.391808</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>ISO 19115 Topic Category</themekt>
+                <themekey>biota</themekey>
+                <themekey>boundaries</themekey>
+            </theme>
+        </keywords>
+        <accconst>These data are unrestricted. Where possible, always acquire this dataset directly from FWC as other sources may have altered the original data.</accconst>
+        <useconst>Users are encouraged to read and fully comprehend the metadata record prior to using these data. Please acknowledge the Florida Fish and Wildlife Conservation Commission (FWC) as the data source for any products developed from these data. Users should be aware that comparison with other data sets for the same area may be inaccurate due to inconsistencies resulting from changes in mapping conventions, data collection techniques, and computer processes over time. FWC shall not be liable for improper or incorrect use of these data.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Florida Fish and Wildlife Conservation Commission - Fish and Wildlife Research Institute</cntorg>
+                    <cntper>GIS Librarian</cntper>
+                </cntorgp>
+                <cntpos>GIS Data Librarian</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>620 South Meridian Street</address>
+                    <address>Fish and Wildlife Research Institute</address>
+                    <city>St. Petersburg</city>
+                    <state>Florida</state>
+                    <postal>33701</postal>
+                </cntaddr>
+                <cntvoice>727-896-8626</cntvoice>
+                <cntfax>727-893-1679</cntfax>
+                <cntemail>GISLibrarian@MyFWC.com</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <secinfo>
+            <secsys>FWRI-DC</secsys>
+            <sechandl>Available without restriction</sechandl>
+        </secinfo>
+    </idinfo>
+    <dataqual>
+        <logic>These data appear to be logically consistent. A geodatabase topology was run to detect and remove any overlapping polygons. With the exceptions of the Choee Howletee Bird Sanctuary (occurring within the South Dade Restricted Hunting Area) and the southernmost portion of the Anastasia Island Bird Sanctuary (occurring within the St. Augustine Beach Bird Sanctuary), no overlapping polygons are present.</logic>
+        <complete>These data are complete as of data available to FWRI in July of 2019.</complete>
+        <lineage>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E(72-05): Establishment of the Spoil Island Bird Sanctuary in Gulf County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19720101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E(72-05): Establishment of the Spoil Island Bird Sanctuary in Gulf County</srccitea>
+                <srccontr>This document contains the legal description establishing Spoil Island Bird Sanctuary in Gulf County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E-75-52: Establishment of the Venice Ranch and Farms Bird Sanctuary in Sarasota County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19780220</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E-75-52: Establishment of the Venice Ranch and Farms Bird Sanctuary in Sarasota County</srccitea>
+                <srccontr>This document contains the legal description establishing the Venice Ranch and Farms Bird Sanctuary in Sarasota County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E-75.38: Establish Pasco County Bird Sanctuary (Sand Bay)</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19770314</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E-75.38: Establish Pasco County Bird Sanctuary (Sand Bay)</srccitea>
+                <srccontr>This document contains the legal description establishing the Sand Bay Bird Sanctuary in Pasco Country. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 83-2: Establishment of the Ponce De Leon Park Bird Sanctuary in Charlotte County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19830101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 83-2: Establishment of the Ponce De Leon Park Bird Sanctuary in Charlotte County</srccitea>
+                <srccontr>This document contains the legal description establishing the Ponce De Leon Park Bird Sanctuary in Charlotte County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 86-2: Establishment of the Riverhaven Village Subdivision Bird Sanctuary in Citrus County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19860101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 86-2: Establishment of the Riverhaven Village Subdivision Bird Sanctuary in Citrus County</srccitea>
+                <srccontr>This document contains the legal description establishing the Riverhaven Village Subdivision Bird Sanctuary in Citrus County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 90-2: Establishment of the Ridge Manor Bird Sanctuary in Hernando County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19900101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 90-2: Establishment of the Ridge Manor Bird Sanctuary in Hernando County</srccitea>
+                <srccontr>This document contains the legal description establishing Ridge Manor Bird Sanctuary in Hernando County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E-75-24: Establishment of the Laurel Bird Sanctuary in Sarasota County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19751119</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E-75-24: Establishment of the Laurel Bird Sanctuary in Sarasota County</srccitea>
+                <srccontr>This document contains the legal description establishing the Laurel Bird Sanctuary in Sarasota County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Counties 1:24,000 Scale Polygon Florida</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19970800</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>Counties 1:24,000 Scale Polygon Florida</srccitea>
+                <srccontr>This vector dataset shows the polygon boundaries of Florida counties at a 1:24,000 scale. If specified in the legal description, staff used this dataset to digitize along the county-line or county boundary portions of the listed bird sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Volusia County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Volusia County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Volusia county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 165-65-5: Sunshine Skyway</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19650129</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 165-65-5: Sunshine Skyway</srccitea>
+                <srccontr>This document contains the legal description establishing the Sunshine Skyway Bird Sanctuary spanning Pinellas, Hillsborough, and Manatee counties. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS-86-3: Establishment of the Spanish Lakes Mobile Home Park Bird Sanctuary in Sarasota County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19860410</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS-86-3: Establishment of the Spanish Lakes Mobile Home Park Bird Sanctuary in Sarasota County</srccitea>
+                <srccontr>This document contains the legal description establishing the Spanish Lakes Mobile Home Park Bird Sanctuary in Sarasota County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 94-1: Establishment of the Royal Trails Unit One Bird Sanctuary in Lake County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19940101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 94-1: Establishment of the Royal Trails Unit One Bird Sanctuary in Lake County</srccitea>
+                <srccontr>This document contains the legal description establishing Royal Trails Unit One Plat Bird Sanctuary in Lake county. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>St. Johns County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>St. Johns County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for St. Johns county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 165 (65-16): Merritt Island Bird Sanctuary</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19650101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 165 (65-16): Merritt Island Bird Sanctuary</srccitea>
+                <srccontr>This document contains the legal description establishing the Merritt Island Bird Sanctuary in Brevard County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 165 (70-05): Establishment of the Arsenicker Key Bird Sanctuary in Dade County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19700101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 165 (70-05): Establishment of the Arsenicker Key Bird Sanctuary in Dade County</srccitea>
+                <srccontr>This document contains the legal description establishing the Arsenicker Key Bird Sanctuary in Dade County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS-80-8: Establishment of the Tiger Point Bird Sanctuary in Santa Rosa County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19800725</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS-80-8: Establishment of the Tiger Point Bird Sanctuary in Santa Rosa County</srccitea>
+                <srccontr>This document contains the legal description establishing the Tiger Point Bird Sanctuary in Santa Rosa County. Staff used this description to digitize the boundaries of said sanctuary</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 91-1: Establishment of the Pine Ridge Estates Bird Sanctuary in Citrus County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19910101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 91-1: Establishment of the Pine Ridge Estates Bird Sanctuary in Citrus County</srccitea>
+                <srccontr>This document contains the legal description establishing the Pine Ridge Estates Bird Sanctuary in Citrus County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 165 (66-30): Establishment of the Crystal River-Kings Bay Bird Sanctuary in Citrus County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19660101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 165 (66-30): Establishment of the Crystal River-Kings Bay Bird Sanctuary in Citrus County</srccitea>
+                <srccontr>This document contains the legal description establishing the Crystal River-Kings Bay Bird Sanctuary in Citrus County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS-85-9: Establishment of the Golden Acres Suburban Association, Inc. Bird Sanctuary in Pasco County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19850813</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS-85-9: Establishment of the Golden Acres Suburban Association, Inc. Bird Sanctuary in Pasco County</srccitea>
+                <srccontr>This document contains the legal description establishing the Golden Acres Suburban Association, Inc. Bird Sanctuary in Pasco Country. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E-75-74: Establishment of the Woodlands Bird Sanctuary in Seminole County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19781121</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E-75-74: Establishment of the Woodlands Bird Sanctuary in Seminole County</srccitea>
+                <srccontr>This document contains the legal description establishing the Woodlands Bird Sanctuary in Seminole County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Walton County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Walton County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Walton county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Suwannee County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Suwannee County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Suwannee county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Gadsden County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Gadsden County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Gadsden county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. RHA 19-02: Hunters Lake Restricted Hunting Area</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20190719</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. RHA 19-02: Hunters Lake Restricted Hunting Area</srccitea>
+                <srccontr>This document contains the legal description establishing Hunters Lake Restricted Hunting Area in Hernando County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>City Limits</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20190513</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>City Limits</srccitea>
+                <srccontr>This polygon dataset represents the municipal boundaries within Seminole County. Per RHA 19-01, all of the uplands in the City of Casselberry Florida were selected from this dataset.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>St. Lucie County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>St. Lucie County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for St. Lucie county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. RHA 19-01 Casselberry Restricted Hunting Area</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20190426</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. RHA 19-01 Casselberry Restricted Hunting Area</srccitea>
+                <srccontr>This document contains the legal description establishing the Casselberry Restricted Hunting Area in Seminole County. Staff used this description to digitize the boundaries of said restricted hunting area.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Resolution 19-3092 Casselberry Memorandum of Understanding</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20190422</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Resolution 19-3092 Casselberry Memorandum of Understanding</srccitea>
+                <srccontr>This document contains the legal description establishing the Casselberry Restricted Hunting Area in Seminole County. Staff used this description to digitize the boundaries of said restricted hunting area.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Duval County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Duval County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Duval county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Charlotte County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Charlotte County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Charlotte county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Sarasota County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Sarasota County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Sarasota county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Pinellas County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Pinellas County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Pinellas county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Alachua County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Alachua County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Alachua county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Hardee County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Hardee County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Hardee county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Brevard County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Brevard County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Brevard county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180201</pubdate>
+                        <title>Gulf County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Gulf County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Gulf county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180201</pubdate>
+                        <title>Bay County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Bay County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Bay county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Citrus County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Citrus County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Citrus county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Hernando County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Hernando County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Hernando county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Palm Beach County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Palm Beach County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Palm Beach county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180201</pubdate>
+                        <title>Hillsborough County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Hillsborough County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Hillsborough county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Martin County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Martin County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Martin county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Pasco County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Pasco County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Pasco county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Seminole County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Seminole County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Seminole county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS-81-2: Establishment of the King’s Gate Bird Sanctuary in Sarasota County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19810202</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS-81-2: Establishment of the King’s Gate Bird Sanctuary in Sarasota County</srccitea>
+                <srccontr>This document contains the legal description establishing the King’s Gate Bird Sanctuary in Sarasota County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS-88-4: Establishment of the Richey Subdivision Bird Sanctuary in Pasco County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19880221</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS-88-4: Establishment of the Richey Subdivision Bird Sanctuary in Pasco County</srccitea>
+                <srccontr>This document contains the legal description establishing the Richey Subdivision Bird Sanctuary in Pasco Country. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS-88-7: Establishment of the Manatee College Bird Sanctuary in Sarasota County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19880715</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS-88-7: Establishment of the Manatee College Bird Sanctuary in Sarasota County</srccitea>
+                <srccontr>This document contains the legal description establishing the Manatee College Bird Sanctuary in Sarasota County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 85-10: Establishment of the Lake Bradley Bird Sanctuary in Citrus County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19850101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 85-10: Establishment of the Lake Bradley Bird Sanctuary in Citrus County</srccitea>
+                <srccontr>This document contains the legal description establishing the Lake Bradley Bird Sanctuary in Citrus County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E-75-36: Establishment of Harmony Heights, St. Lucie County Bird Sanctuary</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19770314</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E-75-36: Establishment of Harmony Heights, St. Lucie County Bird Sanctuary</srccitea>
+                <srccontr>This document contains the legal description establishing the Harmony Heights Bird Sanctuary in St. Lucie County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. S-2: Establishment of the La Costa Island Bird Sanctuary in Lee County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19620101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. S-2: Establishment of the La Costa Island Bird Sanctuary in Lee County</srccitea>
+                <srccontr>This document contains the legal description establishing La Costa Island Bird Sanctuary in Lee county. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS-83-6: Establishment of the Banana Lake Bird Sanctuary in Polk County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19830927</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS-83-6: Establishment of the Banana Lake Bird Sanctuary in Polk County</srccitea>
+                <srccontr>This document contains the legal description establishing the Banana Lake Bird Sanctuary in Polk County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 85-6: Establishment of the Department of Agriculture and Consumer Services Lab Complex Bird Sanctuary in Leon County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19850101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 85-6: Establishment of the Department of Agriculture and Consumer Services Lab Complex Bird Sanctuary in Leon County</srccitea>
+                <srccontr>This document contains the legal description establishing Department of Agriculture and Consumer Services Lab Complex Bird Sanctuary in Leon county. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E-75-56: Establishment of the Anastasia Island Bird Sanctuary in St. Johns County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19780505</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E-75-56: Establishment of the Anastasia Island Bird Sanctuary in St. Johns County</srccitea>
+                <srccontr>This document contains the legal description establishing the Anastasia Island Bird Sanctuary in St. Johns County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 88-3: Establishment of the Fletcher Avenue Bird Sanctuary in Hillsborough County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19880101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 88-3: Establishment of the Fletcher Avenue Bird Sanctuary in Hillsborough County</srccitea>
+                <srccontr>This document contains the legal description establishing Fletcher Avenue Bird Sanctuary in Hillsborough county. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 165 (65-6): Kings Park Bird Sanctuary</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19650101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 165 (65-6): Kings Park Bird Sanctuary</srccitea>
+                <srccontr>This document contains the legal description establishing the Kings Park Bird Sanctuary in Brevard County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 165 (66-5): Establishment of the Crane Park Bird Sanctuary in Manatee County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19660101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 165 (66-5): Establishment of the Crane Park Bird Sanctuary in Manatee County</srccitea>
+                <srccontr>This document contains the legal description establishing Crane Park Bird Sanctuary in Manatee county. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Lake County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Lake County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Lake county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS (82-5): Establishment of the Spring Hill Bird Sanctuary in Hernando County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19820101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS (82-5): Establishment of the Spring Hill Bird Sanctuary in Hernando County</srccitea>
+                <srccontr>This document contains the legal description establishing Spring Hill Bird Sanctuary in Hernando County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E (72-35): Establishment of the Lake Lindsey Bird Sanctuary in Hernando County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19720101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E (72-35): Establishment of the Lake Lindsey Bird Sanctuary in Hernando County</srccitea>
+                <srccontr>This document contains the legal description establishing Lake Lindsey Bird Sanctuary in Hernando County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 165 (68-65): Establishment of the Choee Howletee Bird Sanctuary in Dade County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19680101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 165 (68-65): Establishment of the Choee Howletee Bird Sanctuary in Dade County</srccitea>
+                <srccontr>This document contains the legal description establishing the Choee Howletee Bird Sanctuary in Dade County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 86-5: Establishment of the Gasparilla Mobile Estates Bird Sanctuary in Charlotte County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19860101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 86-5: Establishment of the Gasparilla Mobile Estates Bird Sanctuary in Charlotte County</srccitea>
+                <srccontr>This document contains the legal description establishing the Gasparilla Mobile Estates Bird Sanctuary in Charlotte County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E-75.10: Sikes Creek Bird Sanctuary</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19750101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E-75.10: Sikes Creek Bird Sanctuary</srccitea>
+                <srccontr>This document contains the legal description establishing the Sikes Creek Bird Sanctuary in Brevard County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E (71-13): Establishment of the Seagate Harbor Bird Sanctuary in Martin County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19710101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E (71-13): Establishment of the Seagate Harbor Bird Sanctuary in Martin County</srccitea>
+                <srccontr>This document contains the legal description establishing Seagate Harbor Bird Sanctuary in Martin county. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 165 (69-21): Establishment of the Timucuan Island Bird Sanctuary in Marion County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19690101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 165 (69-21): Establishment of the Timucuan Island Bird Sanctuary in Marion County</srccitea>
+                <srccontr>This document contains the legal description establishing Timucuan Island Bird Sanctuary in Marion county. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E-74-17: Establishment of the Venice Bird Sanctuary in Sarasota County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19740603</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E-74-17: Establishment of the Venice Bird Sanctuary in Sarasota County</srccitea>
+                <srccontr>This document contains the legal description establishing the Venice Bird Sanctuary in Sarasota County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E(75.48): Establishment of the El Jobean-Gulf Cove Bird Sanctuary in Charlotte County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19750101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E(75.48): Establishment of the El Jobean-Gulf Cove Bird Sanctuary in Charlotte County</srccitea>
+                <srccontr>This document contains the legal description establishing the El Jobean-Gulf Cove Bird Sanctuary in Charlotte County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS-80-4: Establishment of 54th Avenue North Bird Sanctuary</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19800219</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS-80-4: Establishment of 54th Avenue North Bird Sanctuary</srccitea>
+                <srccontr>This document contains the legal description establishing the 54th Avenue North Bird Sanctuary in Pinellas County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E-75-49: Establish Bird Sanctuaries in Pasco County (Hudson)</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19771125</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E-75-49: Establish Bird Sanctuaries in Pasco County (Hudson)</srccitea>
+                <srccontr>This document contains the legal description establishing the Hudson Bird Sanctuary in Pasco Country. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Okaloosa County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Okaloosa County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Okaloosa county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Escambia County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Escambia County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Escambia county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>City Limits Census 2010 Florida</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>20100100</begdate>
+                            <enddate>20100700</enddate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>City Limits Census 2010 Florida</srccitea>
+                <srccontr>This vector dataset shows the boundaries of various Florida cities as derived from the 2010 Census. If specified in the legal description, staff used this dataset to digitize the boundaries of some bird sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 96-1: Establishment of the Crystal Wood Estates Bird Sanctuary in Citrus County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19960101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 96-1: Establishment of the Crystal Wood Estates Bird Sanctuary in Citrus County</srccitea>
+                <srccontr>This document contains the legal description establishing the Crystal Wood Estates Bird Sanctuary in Citrus County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Marion County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Marion County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Marion county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 88-2: Establishment of the Gainesville Garden Club Bird Sanctuary in Alachua County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19880101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 88-2: Establishment of the Gainesville Garden Club Bird Sanctuary in Alachua County</srccitea>
+                <srccontr>This document contains the legal description establishing the Gainesville Garden Club Bird Sanctuary in Alachua County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. RHA 18-01: Belle Isle Restricted Hunting Area</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20180101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. RHA 18-01: Belle Isle Restricted Hunting Area</srccitea>
+                <srccontr>This document contains the legal description establishing the Belle Isle Restricted Hunting Area in Orange county. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E(73-04): Establishment of the Rodes Park Bird Sanctuary in Brevard County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19730101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E(73-04): Establishment of the Rodes Park Bird Sanctuary in Brevard County</srccitea>
+                <srccontr>This document contains the legal description establishing the Rodes Park Bird Sanctuary in Brevard County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS (87-4): Establishment of the Bluewater Bay Bird Sanctuary in Okaloosa County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19870101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS (87-4): Establishment of the Bluewater Bay Bird Sanctuary in Okaloosa County</srccitea>
+                <srccontr>This document contains the legal description establishing Bluewater Bay Bird Sanctuary in Okaloosa county. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Sumter County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Sumter County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Sumter county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Santa Rosa County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Santa Rosa County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Santa Rosa county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS-91-4: Establishment of the Mission Valley Bird Sanctuary in Sarasota County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19910111</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS-91-4: Establishment of the Mission Valley Bird Sanctuary in Sarasota County</srccitea>
+                <srccontr>This document contains the legal description establishing the Mission Valley Bird Sanctuary in Sarasota County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS-81-4: Establishment of the Oak Ridge Bird Sanctuary in Pasco County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19810202</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS-81-4: Establishment of the Oak Ridge Bird Sanctuary in Pasco County</srccitea>
+                <srccontr>This document contains the legal description establishing the Oak Ridge Bird Sanctuary in Pasco Country. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 85-2: Establishment of the Melbourne Shores Bird Sanctuary in Brevard County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19850101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 85-2: Establishment of the Melbourne Shores Bird Sanctuary in Brevard County</srccitea>
+                <srccontr>This document contains the legal description establishing the Melbourne Shores Bird Sanctuary in Brevard County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Shoreline 1:12,000 Scale Florida 2004</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20040000</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>Shoreline 1:12,000 Scale Florida 2004</srccitea>
+                <srccontr>This vector dataset shows the shoreline of Florida at a 1:12,000 scale. If specified in the legal description, staff used this dataset to digitize the shoreline portions of the listed bird sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E-73-19: Establishment of the Air Products Bird Sanctuary in Santa Rosa County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19730726</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E-73-19: Establishment of the Air Products Bird Sanctuary in Santa Rosa County</srccitea>
+                <srccontr>This document contains the legal description establishing the Air Products Bird Sanctuary in Santa Rosa County. Staff used this description to digitize the boundaries of said sanctuary</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS-80-4: Establishment of Winter Haven Lakes Bird Sanctuary</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19690721</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS-80-4: Establishment of Winter Haven Lakes Bird Sanctuary</srccitea>
+                <srccontr>This document contains the legal description establishing the Winter Haven Lakes Bird Sanctuary in Polk County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 165 (65-11): Establishment of the Palmetto Expressway Bird Sanctuary in Dade County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19650101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 165 (65-11): Establishment of the Palmetto Expressway Bird Sanctuary in Dade County</srccitea>
+                <srccontr>This document contains the legal description establishing the Palmetto Expressway Bird Sanctuary in Dade County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 79-1: Establishment of the Santa Rosa Island Bird Sanctuary in Escambia County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19790101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 79-1: Establishment of the Santa Rosa Island Bird Sanctuary in Escambia County</srccitea>
+                <srccontr>This document contains the legal description establishing the Santa Rosa Island Bird Sanctuary in Escambia County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Orange County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Orange County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Orange county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS-83-3: Establishment of the Four Mile Village Bird Sanctuary in Walton County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19830727</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS-83-3: Establishment of the Four Mile Village Bird Sanctuary in Walton County</srccitea>
+                <srccontr>This document contains the legal description establishing the Four Mile Village Bird Sanctuary in Walton County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 82-6: Establishment of the Gasparilla Island Bird Sanctuary in Charlotte County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19820101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 82-6: Establishment of the Gasparilla Island Bird Sanctuary in Charlotte County</srccitea>
+                <srccontr>This document contains the legal description establishing the Gasparilla Island Bird Sanctuary in Charlotte County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 89-2: Establishment of the City of Dunnellon Bird Sanctuary in Marion County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19890101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 89-2: Establishment of the City of Dunnellon Bird Sanctuary in Marion County</srccitea>
+                <srccontr>This document contains the legal description establishing City of Dunnellon Bird Sanctuary in Marion county. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 85-8: Establishment of the High Point Bird Sanctuary in Bay County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19860101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 85-8: Establishment of the High Point Bird Sanctuary in Bay County</srccitea>
+                <srccontr>This document contains the legal description establishing the High Point Bird Sanctuary in Bay County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 87-2: Establishment of the Homosassa River Bird Sanctuary in Citrus County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19870101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 87-2: Establishment of the Homosassa River Bird Sanctuary in Citrus County</srccitea>
+                <srccontr>This document contains the legal description establishing the Homosassa River Bird Sanctuary in Citrus County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 81-1: Establishment of the Pirate Harbor Bird Sanctuary in Charlotte County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19810101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 81-1: Establishment of the Pirate Harbor Bird Sanctuary in Charlotte County</srccitea>
+                <srccontr>This document contains the legal description establishing the Pirate Harbor Bird Sanctuary in Charlotte County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 80-5: Establishment of the Windover Farms Bird Sanctuary in Brevard County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19800101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 80-5: Establishment of the Windover Farms Bird Sanctuary in Brevard County</srccitea>
+                <srccontr>This document contains the legal description establishing the Windover Farms Bird Sanctuary in Brevard County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 165 (67-81): Establishment of the Okaloosa Walton Junior College Bird Sanctuary in Okaloosa County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19670101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 165 (67-81): Establishment of the Okaloosa Walton Junior College Bird Sanctuary in Okaloosa County</srccitea>
+                <srccontr>This document contains the legal description establishing Okaloosa Walton Junior College Bird Sanctuary in Okaloosa county. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. RHA 97-1: Establishment of the South Dade Restricted Hunting Area in Dade County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19970101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. RHA 97-1: Establishment of the South Dade Restricted Hunting Area in Dade County</srccitea>
+                <srccontr>This document contains the legal description establishing the South Dade Restricted Hunting Area in Dade County. Since the Restricted Hunting Area has superseded the original bird sanctuary, staff used this description to digitize the boundaries of said area.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20030101</pubdate>
+                        <title>Florida Public Land Survey System - Section Level - Statewide</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20030000</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>Florida Public Land Survey System - Section Level - Statewide</srccitea>
+                <srccontr>This vector grid dataset shows the Public Land Survey System township, range, and sections for the state of Florida. Staff used this dataset to match the legal descriptions provided in establishment orders to their physical location. This dataset was projected into NAD 1983 (2011) StatePlane Florida East FIPS 0901 (US Feet) coordinate system for the East Region, NAD 1983 (2011) StatePlane Florida West FIPS 0902 (US Feet) coordinate system for the West Region, and the NAD 1983 (2011) StatePlane Florida North FIPS 0903 (US Feet) coordinate system for the North Region.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Lee County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Lee County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Lee county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E-75.33: Establish Maitland in Orange County as a Bird Sanctuary</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19760101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E-75.33: Establish Maitland in Orange County as a Bird Sanctuary</srccitea>
+                <srccontr>This document contains the legal description establishing the Maitland Bird Sanctuary in Orange county. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 84-3: Establishment of the Deerwood Bird Sanctuary in Citrus County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19840101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 84-3: Establishment of the Deerwood Bird Sanctuary in Citrus County</srccitea>
+                <srccontr>This document contains the legal description establishing the Deerwood Bird Sanctuary in Citrus County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E-74-20: Establishment of the Boca Ciega Bay Bird Sanctuary</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19740714</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E-74-20: Establishment of the Boca Ciega Bay Bird Sanctuary</srccitea>
+                <srccontr>This document contains the legal description establishing the Boca Ciega Bay Bird Sanctuary in Pinellas Country. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E-71-40: Establishment of the South Venice Bird Sanctuary in Sarasota County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19711116</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E-71-40: Establishment of the South Venice Bird Sanctuary in Sarasota County</srccitea>
+                <srccontr>This document contains the legal description establishing the South Venice Bird Sanctuary in Sarasota County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 83-1: Establishment of the Gasparilla Island Bird Sanctuary in Lee County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19830101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 83-1: Establishment of the Gasparilla Island Bird Sanctuary in Lee County</srccitea>
+                <srccontr>This document contains the legal description establishing Gasparilla Island Bird Sanctuary in Lee county. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS-84-2: Establishment of the Bushnell Bird Sanctuary in Sumter County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19840813</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS-84-2: Establishment of the Bushnell Bird Sanctuary in Sumter County</srccitea>
+                <srccontr>This document contains the legal description establishing the Bushnell Bird Sanctuary in Sumter County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS-85-5: Establishment of the Sorrento East, Venetian Gardens, Lake in the Woods Bird Sanctuary in Sarasota County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19850813</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS-85-5: Establishment of the Sorrento East, Venetian Gardens, Lake in the Woods Bird Sanctuary in Sarasota County</srccitea>
+                <srccontr>This document contains the legal description establishing the Sorrento East, Venetian Gardens, Lake in the Woods Bird Sanctuary in Sarasota County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 165-68-12: Englewood, Manasota Key, North Port Charlotte, Venice and South Venice, Casey and Siesta Keys, Sarasota, and Longboat Key Bird Sanctuaries</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19680422</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 165-68-12: Englewood, Manasota Key, North Port Charlotte, Venice and South Venice, Casey and Siesta Keys, Sarasota, and Longboat Key Bird Sanctuaries</srccitea>
+                <srccontr>This document contains the legal description establishing the Englewood, Manasota Key, North Port Charlotte, Venice and South Venice, Casey and Siesta Key, Sarasota, and Longboat Key Bird Sanctuaries in Sarasota County. Staff used this description to digitize the boundaries of said sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E-75-69: Establishment of the Suwannee Springs Bird Sanctuary in Suwannee County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19780818</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E-75-69: Establishment of the Suwannee Springs Bird Sanctuary in Suwannee County</srccitea>
+                <srccontr>This document contains the legal description establishing the Suwannee Springs Bird Sanctuary in Santa Rosa County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 85-4: Establishment of the Longboat Key Bird Sanctuary in Manatee County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19850101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 85-4: Establishment of the Longboat Key Bird Sanctuary in Manatee County</srccitea>
+                <srccontr>This document contains the legal description establishing Longboat Key Bird Sanctuary in Manatee county. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 89-3: Establishment of the Northwest Florida Water Management District Bird Sanctuary in Gadsden County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19890101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 89-3: Establishment of the Northwest Florida Water Management District Bird Sanctuary in Gadsden County</srccitea>
+                <srccontr>This document contains the legal description establishing Northwest Florida Water Management District Bird Sanctuary in Gadsden County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E-75-66: Establish Bird Sanctuary in Pinellas County (Lake Seminole)</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19780505</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E-75-66: Establish Bird Sanctuary in Pinellas County (Lake Seminole)</srccitea>
+                <srccontr>This document contains the legal description establishing the Lake Seminole Bird Sanctuary in Pinellas Country. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS-91-6: Establishment of the DeSoto Acres Bird Sanctuary in Sarasota County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19910111</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS-91-6: Establishment of the DeSoto Acres Bird Sanctuary in Sarasota County</srccitea>
+                <srccontr>This document contains the legal description establishing the DeSoto Acres Bird Sanctuary in Sarasota County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E (71-02): Establishment of the Key Biscayne Bird Sanctuary in Dade County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19710101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E (71-02): Establishment of the Key Biscayne Bird Sanctuary in Dade County</srccitea>
+                <srccontr>This document contains the legal description establishing the Key Biscayne Bird Sanctuary in Dade County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Leon County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Leon County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Leon county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS-82-4: Establishment of the Country Oaks Bird Sanctuary in Pasco County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19820729</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS-82-4: Establishment of the Country Oaks Bird Sanctuary in Pasco County</srccitea>
+                <srccontr>This document contains the legal description establishing the Country Oaks Bird Sanctuary in Pasco Country. Staff used this description to digitize the boundaries of said sanctuary. Due to overlaps caused by a literal digitization from the legal description, staff used the boundaries of the Pasco County parcels encompassed by this area to create the final boundary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 84-1: Establishment of the Rotonda Bird Sanctuary in Charlotte County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19840101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 84-1: Establishment of the Rotonda Bird Sanctuary in Charlotte County</srccitea>
+                <srccontr>This document contains the legal description establishing the Rotonda Bird Sanctuary in Charlotte County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Manatee County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Manatee County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Manatee county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 80-1: Establishment of the Halls River Bird Sanctuary in Citrus County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19800101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 80-1: Establishment of the Halls River Bird Sanctuary in Citrus County</srccitea>
+                <srccontr>This document contains the legal description establishing the Halls River Bird Sanctuary in Citrus County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 165 (67-28): Establishment of the Inverness Highlands Bird Sanctuary in Citrus County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19670101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 165 (67-28): Establishment of the Inverness Highlands Bird Sanctuary in Citrus County</srccitea>
+                <srccontr>This document contains the legal description establishing the Inverness Highlands Bird Sanctuary in Citrus County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS-90-1: Establishment of the North Port City Bird Sanctuary in Sarasota County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19900713</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS-90-1: Establishment of the North Port City Bird Sanctuary in Sarasota County</srccitea>
+                <srccontr>This document contains the legal description establishing the North Port City Bird Sanctuary in Sarasota County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E (70-54): Establishment of the University of North Florida Bird Sanctuary in Duval County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19700101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E (70-54): Establishment of the University of North Florida Bird Sanctuary in Duval County</srccitea>
+                <srccontr>This document contains the legal description establishing the University of North Florida Bird Sanctuary in Duval County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 165 (70-02): 10948 Acme Road</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19700312</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 165 (70-02): 10948 Acme Road</srccitea>
+                <srccontr>This document contains the legal description establishing the 10948 Acme Road Bird Sanctuary in Palm Beach county. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS-91-5: Establishment of the Jacaranda West Bird Sanctuary in Sarasota County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19910111</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS-91-5: Establishment of the Jacaranda West Bird Sanctuary in Sarasota County</srccitea>
+                <srccontr>This document contains the legal description establishing the Jacaranda West Bird Sanctuary in Sarasota County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 165 (68-83): Establishment of the University of West Florida Bird Sanctuary in Escambia County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19680101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 165 (68-83): Establishment of the University of West Florida Bird Sanctuary in Escambia County</srccitea>
+                <srccontr>This document contains the legal description establishing the University of West Florida Bird Sanctuary in Escambia County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 86-4: Establishment of the Sanibel Island Bird Sanctuary in Lee County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19860101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 86-4: Establishment of the Sanibel Island Bird Sanctuary in Lee County</srccitea>
+                <srccontr>This document contains the legal description establishing Sanibel Island Bird Sanctuary in Lee county. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20151000</pubdate>
+                        <title>National Hydrography Dataset Lakes 1:24,000 Scale Florida</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20180227</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>National Hydrography Dataset Lakes 1:24,000 Scale Florida</srccitea>
+                <srccontr>This vector dataset shows Florida lakes as derived from the detailed 1:24,000 scale National Hydrography dataset. If specified in the legal description, staff used this dataset to digitize along lake shorelines.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E-75.29: Establishment of Pasco County Bird Sanctuary (Seven Springs)</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19760722</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E-75.29: Establishment of Pasco County Bird Sanctuary (Seven Springs)</srccitea>
+                <srccontr>This document contains the legal description establishing the Seven Springs Bird Sanctuary in Pasco Country. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS-82-3: Establishment of the Sugar Creek Bird Sanctuary in Pasco County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19820729</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS-82-3: Establishment of the Sugar Creek Bird Sanctuary in Pasco County</srccitea>
+                <srccontr>This document contains the legal description establishing the Sugar Creek Bird Sanctuary in Pasco Country. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Dade County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Dade County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Dade county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 93-1: Establishment of the Woodland Waters Bird Sanctuary in Hernando County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19930101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 93-1: Establishment of the Woodland Waters Bird Sanctuary in Hernando County</srccitea>
+                <srccontr>This document contains the legal description establishing Woodland Waters Bird Sanctuary in Hernando County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 165 (65-5): Establishment of the Sunshine Skyway Bird Sanctuary in Hillsborough County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19650101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 165 (65-5): Establishment of the Sunshine Skyway Bird Sanctuary in Hillsborough County</srccitea>
+                <srccontr>This document contains the legal description establishing Sunshine Skyway Bird Sanctuary in Pinellas, Hillsborough, and Manatee counties. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 84-4: Establishment of the Kanapaha Bird Sanctuary in Alachua County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19840101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 84-4: Establishment of the Kanapaha Bird Sanctuary in Alachua County</srccitea>
+                <srccontr>This document contains the legal description establishing the Kanapaha Bird Sanctuary in Alachua County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 91-3: Happy Trails Estates</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19910111</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 91-3: Happy Trails Estates</srccitea>
+                <srccontr>This document contains the legal description establishing the Happy Trails Estates subdivision in Osceola county. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS-82-1: Establishment of the Park Lake Estates Bird Sanctuary in Pasco County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19820203</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS-82-1: Establishment of the Park Lake Estates Bird Sanctuary in Pasco County</srccitea>
+                <srccontr>This document contains the legal description establishing the Park Lake Estates Bird Sanctuary in Pasco Country. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS-85-1: Establishment of the Holiday Pines Bird Sanctuary in St. Lucie County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19850204</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS-85-1: Establishment of the Holiday Pines Bird Sanctuary in St. Lucie County</srccitea>
+                <srccontr>This document contains the legal description establishing the Holiday Pines Bird Sanctuary in St. Lucie County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 165 (65-22): Long Point Recreation Area Bird Sanctuary</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19650101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 165 (65-22): Long Point Recreation Area Bird Sanctuary</srccitea>
+                <srccontr>This document contains the legal description establishing the Long Point Recreation Area Bird Sanctuary in Brevard County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 165 (69-27): Square Lake</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19690812</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 165 (69-27): Square Lake</srccitea>
+                <srccontr>This document contains the legal description establishing the Square Lake Bird Sanctuary in Palm Beach county. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS-88-5: Establishment of the Suncoast Seabird Bird Sanctuary</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19880221</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS-88-5: Establishment of the Suncoast Seabird Bird Sanctuary</srccitea>
+                <srccontr>This document contains the legal description establishing the Suncoast Seabird Bird Sanctuary in Pasco Country. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E-73-23: Establishment of the Joe’s Creek Bird Sanctuary</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19730726</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E-73-23: Establishment of the Joe’s Creek Bird Sanctuary</srccitea>
+                <srccontr>This document contains the legal description establishing the Joe’s Creek Bird Sanctuary in Pinellas Country. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E(72-04): Establishment of the South Beaches Bird Sanctuary in Brevard County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19720101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E(72-04): Establishment of the South Beaches Bird Sanctuary in Brevard County</srccitea>
+                <srccontr>This document contains the legal description establishing the South Beaches Bird Sanctuary in Brevard County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 165-68-30: Establishment of the Lakewood Bird Sanctuary in St. Lucie County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19680801</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 165-68-30: Establishment of the Lakewood Bird Sanctuary in St. Lucie County</srccitea>
+                <srccontr>This document contains the legal description establishing the Lakewood Park Bird Sanctuary in St. Lucie County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180803</pubdate>
+                        <title>World Imagery Map</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>20091209</begdate>
+                            <enddate>20180803</enddate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>World Imagery Map</srccitea>
+                <srccontr>This ArcGIS Online imagery basemap was used as a reference to match the legal descriptions provided in establishment orders to their physical location.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 85-8: Establishment of the Naval Coastal Systems Center Bird Sanctuary in Bay County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19850101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 85-8: Establishment of the Naval Coastal Systems Center Bird Sanctuary in Bay County</srccitea>
+                <srccontr>This document contains the legal description establishing the Naval Coastal Systems Center Bird Sanctuary in Bay County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E-75.28 : Establish Bird Sanctuaries in Pasco and Sarasota Counties</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19760617</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E-75.28 : Establish Bird Sanctuaries in Pasco and Sarasota Counties</srccitea>
+                <srccontr>This document contains the legal description establishing both the Beacon Woods and Plamore Bird Sanctuaries in Pasco and Sarasota counties. Staff used this description to digitize the boundaries of said sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E-75-50: Establish Bird Sanctuary in Pinellas County (Cross Bayou)</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19771125</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E-75-50: Establish Bird Sanctuary in Pinellas County (Cross Bayou)</srccitea>
+                <srccontr>This document contains the legal description establishing the Cross Bayou Bird Sanctuary in Pinellas Country. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 165-69-6: Establishment of the Port St. Lucie Bird Sanctuary in St. Lucie County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19690310</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 165-69-6: Establishment of the Port St. Lucie Bird Sanctuary in St. Lucie County</srccitea>
+                <srccontr>This document contains the legal description establishing the Port St. Lucie Bird Sanctuary in St. Lucie County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS-80-3: Establishment of Tangerine Bird Sanctuary</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19800101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS-80-3: Establishment of Tangerine Bird Sanctuary</srccitea>
+                <srccontr>This document contains the legal description establishing the Tangerine Bird Sanctuary in Orange county. Staff used this descriptions to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 165 (66-23): Establishment of the Pioneer Park Bird Sanctuary in Hardee County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19660101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 165 (66-23): Establishment of the Pioneer Park Bird Sanctuary in Hardee County</srccitea>
+                <srccontr>Source Contribution: This document contains the legal description establishing Pioneer Park Bird Sanctuary in Hardee County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 165-65-30: Establishment of the Harbor Hills Bird Sanctuary</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19650101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 165-65-30: Establishment of the Harbor Hills Bird Sanctuary</srccitea>
+                <srccontr>This document contains the legal description establishing the Harbor Hills Bird Sanctuary in Pinellas Country. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 80-7: Anclote-Big Oaks</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19800819</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 80-7: Anclote-Big Oaks</srccitea>
+                <srccontr>This document contains the legal description establishing the Anclote-Big Oaks Bird Sanctuary in Pasco county. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 86-6: Establishment of the River Country Estates Bird Sanctuary in Hernando County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19860101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 86-6: Establishment of the River Country Estates Bird Sanctuary in Hernando County</srccitea>
+                <srccontr>This document contains the legal description establishing River Country Estates Bird Sanctuary in Hernando County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS-89-1 : Establishment of the Centennial Park Bird Sanctuary in Pasco County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19890113</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS-89-1 : Establishment of the Centennial Park Bird Sanctuary in Pasco County</srccitea>
+                <srccontr>This document contains the legal description establishing Centennial Park Bird Sanctuary in Pasco county. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 82-2: Establishment of the Bailey’s Bluff Bird Sanctuary in Pasco County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19820203</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 82-2: Establishment of the Bailey’s Bluff Bird Sanctuary in Pasco County</srccitea>
+                <srccontr>This document contains the legal description establishing the Bailey’s Bluff Bird Sanctuary in Pasco county. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E-75.27: Establish Bird Sanctuaries in Sarasota and Orange Counties</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19760101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E-75.27: Establish Bird Sanctuaries in Sarasota and Orange Counties</srccitea>
+                <srccontr>This document contains the legal description establishing both the Sarasota Bay and Lake Mary Jane Bird Sanctuaries in Sarasota and Orange counties. Staff used these descriptions to digitize the boundaries of said sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E(73-24): Establishment of the Harbour Heights Bird Sanctuary in Charlotte County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19730101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E(73-24): Establishment of the Harbour Heights Bird Sanctuary in Charlotte County</srccitea>
+                <srccontr>This document contains the legal description establishing the Harbour Heights Bird Sanctuary in Charlotte County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS-89-4: Establishment of the Switzerland Bird Sanctuary in St. Johns County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19890714</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS-89-4: Establishment of the Switzerland Bird Sanctuary in St. Johns County</srccitea>
+                <srccontr>This document contains the legal description establishing the Switzerland Bird Sanctuary in St. Johns County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 165 (68-22): Establishment of the Star Lake Bird Sanctuary in Escambia County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19680101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 165 (68-22): Establishment of the Star Lake Bird Sanctuary in Escambia County</srccitea>
+                <srccontr>This document contains the legal description establishing the Star Lake Bird Sanctuary in Escambia County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180200</pubdate>
+                        <title>Polk County Florida Parcels</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20171100</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Polk County Florida Parcels</srccitea>
+                <srccontr>These data represent the final parcel polygons for Polk county as of November 2017. These parcels were used to match the legal descriptions of bird sanctuaries to their physical locations. Staff also digitized along parcel boundaries where said boundaries matched those plat maps named in the legal descriptions for various sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E-75-68: Establish Bird Sanctuary in Town of St. Augustine Beach</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19780818</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E-75-68: Establish Bird Sanctuary in Town of St. Augustine Beach</srccitea>
+                <srccontr>This document contains the legal description establishing the St. Augustine Beach Bird Sanctuary in St. Johns County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 81-3: Establishment of the Perdido Key-Interarity Point Bird Sanctuary in Escambia County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19800101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 81-3: Establishment of the Perdido Key-Interarity Point Bird Sanctuary in Escambia County</srccitea>
+                <srccontr>This document contains the legal description establishing the Perdido Key-Interarity Point Bird Sanctuary in Escambia County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E(71-39): Establishment of the Manatee-Sarasota County Line Bird Sanctuary in Manatee County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19710101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E(71-39): Establishment of the Manatee-Sarasota County Line Bird Sanctuary in Manatee County</srccitea>
+                <srccontr>This document contains the legal description establishing Manatee-Sarasota County Line Bird Sanctuary in Manatee county. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20180815</pubdate>
+                        <title>World Street Map</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>20091209</begdate>
+                            <enddate>20180815</enddate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>World Street Map</srccitea>
+                <srccontr>This ArcGIS Online street basemap was used as a reference to match the named streets portions of the provided legal descriptions to their physical location. Staff also digitized along those streets named in the legal descriptions for various bird sanctuaries.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 16E-74-54: Establishment of the Halifax Bird Sanctuary in Volusia County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19750109</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 16E-74-54: Establishment of the Halifax Bird Sanctuary in Volusia County</srccitea>
+                <srccontr>This document contains the legal description establishing the Halifax Bird Sanctuary in Volusia County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS-87-1: Establishment of the Foxfire/Foxfire West Bird Sanctuary in Sarasota County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19870224</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS-87-1: Establishment of the Foxfire/Foxfire West Bird Sanctuary in Sarasota County</srccitea>
+                <srccontr>This document contains the legal description establishing the Foxfire/Foxfire West Bird Sanctuary in Sarasota County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 87-3: Establishment of the South Gulf Cove Bird Sanctuary in Charlotte County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19870101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 87-3: Establishment of the South Gulf Cove Bird Sanctuary in Charlotte County</srccitea>
+                <srccontr>This document contains the legal description establishing the South Gulf Cove Bird Sanctuary in Charlotte County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. 165 (67-2): Establishment of the Englewood Bird Sanctuary in Charlotte County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19670101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. 165 (67-2): Establishment of the Englewood Bird Sanctuary in Charlotte County</srccitea>
+                <srccontr>: This document contains the legal description establishing the Englewood Bird Sanctuary in Charlotte County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 88-1: Establishment of the City of Neptune Beach Bird Sanctuary in Duval County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19880101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 88-1: Establishment of the City of Neptune Beach Bird Sanctuary in Duval County</srccitea>
+                <srccontr>This document contains the legal description establishing the City of Neptune Beach Bird Sanctuary in Duval County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Establishment Order No. BS 80-6: Establishment of the Scenic Highway Bird Sanctuary in Escambia County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19800101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Establishment Order No. BS 80-6: Establishment of the Scenic Highway Bird Sanctuary in Escambia County</srccitea>
+                <srccontr>This document contains the legal description establishing the Scenic Highway Bird Sanctuary in Escambia County. Staff used this description to digitize the boundaries of said sanctuary.</srccontr>
+            </srcinfo>
+            <procstep>
+                <procdesc>To ensure accuracy of the digitization process for each bird sanctuary, reference datasets and documents were compiled and divided into three regions: North, East, and West. These regions correspond to the Florida Department of Transportation’s State Plane Zones 901 East, 902 West, and 903 North (please see the August 2017 FDOT Districts State Plane &amp; UTM Zones PDF map available here: http://fdot.gov/geospatial/maps/zones_districts.pdf. All reference data was then re-projected to NAD_1983_2011_StatePlane_Florida_East_FIPS_0901_Ft_US, NAD_1983_2011_StatePlane_Florida_West_FIPS_0902_Ft_US, or NAD_1983_2011_StatePlane_Florida_North_FIPS_0903_Ft_US, respectively. These regions and projections were chosen to match the use of US feet in the legal descriptions of each bird sanctuary and any accompanying plat/parcel surveys. Individual parcel boundary datasets for each county were also re-projected into NAD_1983_2011_StatePlane_Florida_West_FIPS_0902_Ft_US, NAD_1983_2011_StatePlane_Florida_East_FIPS_0901_Ft_US, or NAD_1983_2011_StatePlane_Florida_North_FIPS_0903_Ft_US, depending upon which State Plane Zone the county was included in. After all reference data was prepared, an individual bird sanctuary dataset for each region was created in the appropriate projection. The legal descriptions establishing the bird sanctuaries varied widely in terms of detail. If specific plat books or plat maps were referenced in the legal description, staff used these documents in combination with the available countywide parcels dataset and World Street Map to digitize the bird sanctuary at a scale of 1:5,000. Where bird sanctuaries included portions of shoreline, digitization occurred at a scale of 1:12,000. For sanctuaries with a more general description, digitization occurred at a scale of 1:24,000. Where specific bearings and distances were provided in the legal description, staff used either the Direction and Length heads-up editing tools or the Coordinate Geometry (COGO) toolbar (with Ground to Grid Correction applied as necessary) to digitize the final boundaries of the sanctuary. Where the use of the Direction/Length or COGO tools resulted in a feature that closely matched the available parcel boundaries, the parcel boundaries were used for the final boundary instead. After all bird sanctuaries for a region were digitized and reviewed against the legal description, a topology was run to detect and remove any overlapping polygons. Exceptions were made for the Choee Howletee bird sanctuary (occurring within the South Dade Restricted Hunting Area) and the southernmost portion of the Anastasia Island Bird Sanctuary (occurring within the St. Augustine Beach Bird Sanctuary). All three bird sanctuary datasets were then merged into one dataset, and this final statewide dataset was re-projected to NAD_1983_2011_Florida_FGDL_Albers.</procdesc>
+                <procdate>20180101</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute</cntorg>
+                            <cntper>GISLibrarian</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Data Librarian</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>Fish and Wildlife Research Institute</address>
+                            <address>100 Eighth Avenue Southeast</address>
+                            <city>St. Petersburg</city>
+                            <state>Florida</state>
+                            <postal>33701</postal>
+                        </cntaddr>
+                        <cntvoice>727-896-8626</cntvoice>
+                        <cntfax>727-893-1697</cntfax>
+                        <cntemail>GISLibrarian@MyFWC.com</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Added Casselberry Restricted Hunting Area (RHA 19-01). Since the legal description in the Establishment Order and Memorandum of Understanding matched the Casselberry City Limits, staff downloaded the updated City Limits polygon dataset from the Seminole County GIS department's open data site and selected for those polygons representing the jurisdictional limits of the City of Casselberry, Florida. These polygons were exported to a new dataset and the dataset reprojected to NAD_1983_2011_FGDL_Albers. Staff then removed those polygons intersecting Lake Howell before merging with the main statewide dataset.</procdesc>
+                <procdate>20190515</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute</cntorg>
+                            <cntper>GISLibrarian</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Data Librarian</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>Fish and Wildlife Research Institute</address>
+                            <address>100 Eighth Avenue Southeast</address>
+                            <city>St. Petersburg</city>
+                            <state>Florida</state>
+                            <postal>33701</postal>
+                        </cntaddr>
+                        <cntvoice>727-896-8626</cntvoice>
+                        <cntfax>727-893-1697</cntfax>
+                        <cntemail>GISLibrarian@MyFWC.com</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Added Hunters Lake Restricted Hunting Area (RHA 19-02). Staff used the high-resolution map included with the order as well as the 2017 Hernando parcels to digitize said area.</procdesc>
+                <procdate>20190722</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute</cntorg>
+                            <cntper>GISLibrarian</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Data Librarian</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>Fish and Wildlife Research Institute</address>
+                            <address>100 Eighth Avenue Southeast</address>
+                            <city>St. Petersburg</city>
+                            <state>Florida</state>
+                            <postal>33701</postal>
+                        </cntaddr>
+                        <cntvoice>727-896-8626</cntvoice>
+                        <cntfax>727-893-1697</cntfax>
+                        <cntemail>GISLibrarian@MyFWC.com</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>GIS_Web.FWC.bird_sanctuaries_fl_poly</enttypl>
+                <enttypd>Statewide FWC-designated bird sanctuaries as established from 1962 to the present.</enttypd>
+                <enttypds>FWRI</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>FID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Name</attrlabl>
+                <attrdef>Name of sanctuary.</attrdef>
+                <attrdefs>FWRI</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>County</attrlabl>
+                <attrdef>Florida county in which the sanctuary is located.</attrdef>
+                <attrdefs>FWRI</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>ORDER_NO</attrlabl>
+                <attrdef>FWC Establishment Order Number.</attrdef>
+                <attrdefs>FWRI</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>Notes</attrlabl>
+                <attrdef>Special notes regarding the sanctuary.</attrdef>
+                <attrdefs>FWRI</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Coordinates defining the features.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape_STAr</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape_STLe</attrlabl>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute</cntorg>
+                    <cntper>GISLibrarian</cntper>
+                </cntorgp>
+                <cntpos>GIS Data Librarian</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>100 Eighth Avenue Southeast</address>
+                    <address>Fish and Wildlife Research Institute</address>
+                    <city>St. Petersburg</city>
+                    <state>Florida</state>
+                    <postal>33701</postal>
+                </cntaddr>
+                <cntvoice>727-896-8626</cntvoice>
+                <cntfax>727-893-1697</cntfax>
+                <cntemail>GISLibrarian@MyFWC.com</cntemail>
+            </cntinfo>
+        </distrib>
+        <distliab>This data set is a Florida Fish and Wildlife Conservation Commission produced data set; it is provided "as-is" without warranty of any kind, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. The user assumes all responsibility for the accuracy and suitability of this data set for a specific application. In no event will the staff of the Florida Fish and Wildlife Conservation Commission be liable for any damages, including lost profits, lost savings, or other incidental or consequential damages arising from the use of or the inability to use this data set.</distliab>
+    </distinfo>
+    <metainfo>
+        <metd>20200124</metd>
+        <metfrd>20210124</metfrd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute</cntorg>
+                    <cntper>GISLibrarian</cntper>
+                </cntorgp>
+                <cntpos>GIS Data Librarian</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>100 Eighth Avenue Southeast</address>
+                    <address>Fish and Wildlife Research Institute</address>
+                    <city>St. Petersburg</city>
+                    <state>Florida</state>
+                    <postal>33701</postal>
+                </cntaddr>
+                <cntvoice>727-896-8626</cntvoice>
+                <cntfax>727-893-1697</cntfax>
+                <cntemail>GISLibrarian@MyFWC.com</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
