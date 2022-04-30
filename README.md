@@ -1,5 +1,5 @@
 # Mangiapane_Gianluca_BurmesePythons_Everglades
-This project looked at 
+This project is my Capstone independent Research project for the Masters of Urban Spatial Analyis at the Unviersity of Pennsylvania. In this project, I chose to study the spatial relationship of Burmese Python sightings in Florida. I am fascinated by the nature and explosive properties of invasive species, and how detrimental it can be to local wildlife. They are magnificent creatures, and are prime hunting machines adaopted to be as efficient as possible, and in the area of South Florida, they easily claim prey that have no instinctual fear of an animal of that caliber. As an animal lover, I struggle with villianizing invasive species for the harm they can cause to local ecosystems, especially in the case of the Burmese Python, for they didn't choose to invade the Florida everglades. The first known cases of Burmese Pythons being sighted in Southern Florida were due to being released as unwanted pets from the exoitc pet trade in the state. As more and more python pets were reelased, the population has steadily grown. Due to their elusive nature, Scientists have trouble estimating their population, with numbers ranging between 10,000 to 100,000 in the last twenty years. Traditional methods of dection, such as remote sensing and detector dogs 
 
 
 
