@@ -33,3 +33,11 @@ This project looked at
 3. Traffic Data and Florida County data was found at the Florida Traffic Online data portal https://tdaappsprod.dot.state.fl.us/fto/ 
 
 4. Census data was taken from the 2016 ACS API through the Cenpy library in Python 
+
+
+# Folders 
+
+See /raw_data for identified datasets from above. For 2003 Bird Colonies and Waterbodies, the dataset is too large for Github, but the data can be found at the Florida Geospatial Open Data portal. 
+See /scripts for feature engineering for the data and the negative binomial regression model and spatial autocorrelaiton in jupyter notebooks 
+See /plots for plots in the final report
+See /
