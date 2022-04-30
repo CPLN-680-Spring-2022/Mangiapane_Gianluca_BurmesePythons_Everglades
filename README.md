@@ -12,7 +12,7 @@ This project looked at
 
 2. The following datasets are from the Florida Geospatial Open Data portal https://geodata.floridagio.gov/ 
 
-- Bird Sanctuary Sites
+   -Bird Sanctuary Sites
 - Eagle Nests
 - Bird Nest Sites from 2000
 - Land Mammal Habitats
