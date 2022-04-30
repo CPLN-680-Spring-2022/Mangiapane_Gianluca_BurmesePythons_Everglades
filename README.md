@@ -37,7 +37,7 @@ This project looked at
 
 # Folders 
 
-See "/raw_data" for identified datasets from above. For 2003 Bird Colonies and Waterbodies, the dataset is too large for Github, but the data can be found at the Florida Geospatial Open Data portal
+See [https://github.com/CPLN-680-Spring-2022/Mangiapane_Gianluca_BurmesePythons_Everglades/tree/main/raw_data] for identified datasets from above. For 2003 Bird Colonies and Waterbodies, the dataset is too large for Github, but the data can be found at the Florida Geospatial Open Data portal
 
 See /scripts for feature engineering for the data and the negative binomial regression model and spatial autocorrelaiton in jupyter notebooks 
 
