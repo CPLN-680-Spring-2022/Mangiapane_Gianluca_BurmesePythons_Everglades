@@ -39,10 +39,10 @@ This project looked at
 
 See [/raw_data](https://github.com/CPLN-680-Spring-2022/Mangiapane_Gianluca_BurmesePythons_Everglades/tree/main/raw_data) for identified datasets from above. For 2003 Bird Colonies and Waterbodies, the dataset is too large for Github, but the data can be found at the Florida Geospatial Open Data portal
 
-See /scripts for feature engineering for the data and the negative binomial regression model and spatial autocorrelaiton in jupyter notebooks 
+See [/scripts](https://github.com/CPLN-680-Spring-2022/Mangiapane_Gianluca_BurmesePythons_Everglades/tree/main/Scripts) for feature engineering for the data and the negative binomial regression model and spatial autocorrelaiton in jupyter notebooks 
 
-See /plots for plots in the final report
+See [/plots](https://github.com/CPLN-680-Spring-2022/Mangiapane_Gianluca_BurmesePythons_Everglades/tree/main/Plots) for plots in the final report
 
-See /documents for the progress of my reports, presentations, and peer code edits 
+See [/documents](https://github.com/CPLN-680-Spring-2022/Mangiapane_Gianluca_BurmesePythons_Everglades/tree/main/Documents) for the progress of my reports, presentations, and peer code edits 
 
-See Mangiapane_BurmesePythons_Everglades for my final report
+See [Mangiapane_BurmesePythons_Everglades](https://github.com/CPLN-680-Spring-2022/Mangiapane_Gianluca_BurmesePythons_Everglades/blob/main/Mangiapane_BurmesePythonsEverglades_Report%20.pdf) for my final report](
